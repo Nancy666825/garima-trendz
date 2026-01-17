@@ -1,5 +1,63 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: #f6f6f6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #111;
+  color: #fff;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home {
   text-align: center;
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.section {
+  padding: 30px 20px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #eee;
   padding: 20px;
+  margin: 10px;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #111;
+  color: #fff;
 }
